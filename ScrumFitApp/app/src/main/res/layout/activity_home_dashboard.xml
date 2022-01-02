@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Dashboard_Activity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HomeDashboard_Title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HomeDashboard_Description"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:textSize="15sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HomeDashboard_Label"
+        app:layout_constraintTop_toBottomOf="@id/tvLabel"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tvLabel"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvProgressDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 of 3"
+        app:layout_constraintStart_toStartOf="@id/tvLabel"
+        app:layout_constraintTop_toBottomOf="@id/tvLabel2"
+        android:textSize="15sp"
+        />
+
+    <ProgressBar
+        android:id="@+id/pbDays"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvProgressDays"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:max="6"
+        android:progress="1"
+        android:progressBackgroundTint="@color/black"
+        android:progressTint="@color/green_progress"
+        android:scaleY="5"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/Nav_Home"
+            android:textSize="12sp"
+            android:drawableLeft="@drawable/ic_home_foreground"
+            />
+
+        <Button
+            android:id="@+id/btnListRoutine"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/Nav_List"
+            android:textSize="12sp"
+            android:drawableLeft="@drawable/ic_routines_foreground"
+            />
+
+        <Button
+            android:id="@+id/btnCreateRoutine"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/Nav_Create"
+            android:textSize="12sp"
+            android:drawableLeft="@drawable/ic_create_foreground"
+            />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/Nav_Profile"
+            android:textSize="12sp"
+            android:drawableLeft="@drawable/ic_profile_foreground"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

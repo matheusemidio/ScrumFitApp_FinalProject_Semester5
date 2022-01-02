@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScrumFitApp</string>
+    <string name="CreateRoutineDay_Title">Créez votre routine</string>
+    <string name="CreateRoutineDay_Subtitle">Combie de jours dans la semaine vous prévoyez de faire de l\'exercice</string>
+    <string name="Nav_Home">Accueil</string>
+    <string name="Nav_List">Liste</string>
+    <string name="Nav_Create">Créer</string>
+    <string name="Nav_Profile">Profil</string>
+    <string name="CreateRoutineList_Title">Crée votre routine</string>
+    <string name="CreateRoutineList_Subtitle">Liste des exercices</string>
+    <string name="CreateRoutineList_Description">Sélectionnez votre exercice</string>
+    <string name="CreateRoutineSelect_Title">Crée votre routine</string>
+    <string name="CreateRoutineSelect_Subtitle">Sélectionnez votre exercices</string>
+    <string name="CreateRoutineSelect_Save">Enregistrer votre entraînement</string>
+    <string name="HomeDashboard_Title">Dashboard</string>
+    <string name="HomeDashboard_Description">Progrès de la semaine</string>
+    <string name="HomeDashboard_Label">Nombre de jours:</string>
+    <string name="ListRoutineDaily_Title">Entraînement quotidien</string>
+    <string name="ListRoutineExercise_TargetMuscle">Groupe musculaire cible</string>
+    <string name="ListRoutineWorkout_Title">Entraînement</string>
+    <string name="LogRegister_Title">S\'inscrire</string>
+    <string name="LogRegister_Label">Accédez à votre compte pour commencer à créer vos \nroutines en quelque secondes</string>
+    <string name="LogRegister_Username">Nom d\'utilisateur</string>
+    <string name="LogRegister_Name">Nom</string>
+    <string name="LogRegister_Password">Le mot de passe</string>
+    <string name="LogRegister_Email">Email</string>
+    <string name="LogRegister_Height">La taille (cm)</string>
+    <string name="LogRegister_Weight">Le poids (kg)</string>
+    <string name="LogRegister_Birthday">Date d\'anniversaire (mm/dd/yyyy)</string>
+    <string name="LogRegister_BtnRegister">S\'inscrire</string>
+    <string name="LogRegister_Message">Vous avez déjà un compte?</string>
+    <string name="LogRegister_BtnSignIn">Se connecter</string>
+    <string name="LogSignIn_Title">Se connecter</string>
+    <string name="LogSignIn_Message">Accédez à votre compte pour commencer à créer vos \nroutines en quelque secondes</string>
+    <string name="LogSignIn_Username">Nom d\'utilisateur</string>
+    <string name="LogSignIn_Password">Le mot de passe</string>
+    <string name="LogSignIn_MessagePassword">Votre mot de passe doit comporter au moins 8 caractères et contenir un mélange de lettres majuscules et minuscules, de chiffres et de symboles.</string>
+    <string name="LogSignIn_BtnSignIn">Se connecter</string>
+    <string name="LogSignIn_MessageSignUp">Vous n\'avez pas de compte?</string>
+    <string name="LogSignIn_BtnSignUp">S\'inscrire</string>
+    <string name="ProfileEdit_Title">Editer le profil</string>
+    <string name="ProfileEdit_BtnSave">Enregistrer</string>
+    <string name="ItemDailyWorkout_Day">Jour</string>
+    <string name="ItemExercise_TargetMuscle">Groupe musculaire cible</string>
+
+</resources>

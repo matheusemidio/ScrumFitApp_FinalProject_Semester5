@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Log_SignIn_Acitity">
+
+    <ImageView
+        android:id="@+id/imLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAIN AGILE BE AGILE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/imLogo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LogSignIn_Title"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/tvMsgSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/LogSignIn_Message"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tvSignIn"
+        app:layout_constraintTop_toBottomOf="@id/tvSignIn" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LogSignIn_Username"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/tvMsgSignIn"
+        app:layout_constraintStart_toStartOf="@id/tvSignIn"
+        android:padding="10sp"
+        android:layout_marginTop="10sp"
+        android:background="#EEF3F7"/>
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvUsername"
+        app:layout_constraintLeft_toRightOf="@id/tvUsername"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="20dp"
+        android:padding="10sp"
+        android:background="#EEF3F7"/>
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/LogSignIn_Password"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/tvUsername"
+        app:layout_constraintEnd_toEndOf="@id/tvUsername"
+        app:layout_constraintStart_toStartOf="@id/tvSignIn"
+        android:padding="10sp"
+        android:layout_marginTop="10sp"
+        android:background="#EEF3F7"/>
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvPassword"
+        app:layout_constraintStart_toStartOf="@id/edUsername"
+        app:layout_constraintEnd_toEndOf="@id/edUsername"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="10sp"
+        android:background="#EEF3F7"
+        android:inputType="textPassword"
+
+        />
+
+    <TextView
+        android:id="@+id/tvMsgPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/LogSignIn_MessagePassword"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/tvSignIn"
+        app:layout_constraintTop_toBottomOf="@id/tvPassword"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/tvMsgSignIn"
+        />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_sign_select"
+        android:text="@string/LogSignIn_BtnSignIn"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tvMsgPassword"
+        app:layout_constraintStart_toStartOf="@id/tvMsgPassword"
+        app:layout_constraintEnd_toEndOf="@id/tvMsgPassword"
+        android:layout_marginTop="40dp"/>
+
+
+        <TextView
+            android:id="@+id/tvMsgSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LogSignIn_MessageSignUp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btnSignUp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginBottom="40dp"
+            />
+
+        <TextView
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LogSignIn_BtnSignUp"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf ="@id/tvMsgSignUp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/tvMsgSignUp"
+            />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

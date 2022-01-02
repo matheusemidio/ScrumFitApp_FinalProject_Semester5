@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "373072251971",
+    "firebase_url": "https://prjscrumfitapp-android2021-default-rtdb.firebaseio.com",
+    "project_id": "prjscrumfitapp-android2021",
+    "storage_bucket": "prjscrumfitapp-android2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373072251971:android:9f984f712333007d1e98f6",
+        "android_client_info": {
+          "package_name": "com.example.scrumfitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373072251971-b72ou95csvlod2lediu5vq22e7q2i5q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktwWWG9SY-S_S3QxsFBoin4R23vT2YPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373072251971-b72ou95csvlod2lediu5vq22e7q2i5q8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

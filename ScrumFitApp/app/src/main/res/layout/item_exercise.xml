@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvNoExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise # 1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvTargetMuscle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ItemExercise_TargetMuscle"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvNoExercise"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/edTargetMuscle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pectoralis Major Clavicular Head"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvTargetMuscle"
+        app:layout_constraintLeft_toRightOf="@id/tvTargetMuscle"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/tvExerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvTargetMuscle"
+        app:layout_constraintStart_toStartOf="@id/tvTargetMuscle"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/edExerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bench Press"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/tvExerciseName"
+        app:layout_constraintStart_toStartOf="@id/tvExerciseName"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgExercise"
+        android:layout_width="135dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/exercise"
+        app:layout_constraintTop_toBottomOf="@id/edExerciseName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
