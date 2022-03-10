@@ -5,7 +5,7 @@
 ### Motivation
 This application was developed for the final project of the Android Mobile course, on the fifth semester of the Computer Science Technology DEC program. It was presented in December of 2021. 
 ### About the application
-The idea of the application is to allow logged users to create a routine of exercises for the desired number of days and then allow them to view which exercises where chosen for each day. The exercises are taken from our database. 
+The idea of the application is to allow logged users to create a routine of exercises for the desired number of days and then allow them to view which exercises were chosen for each day. The exercises are taken from our database. 
 ### Technologies used
 -	Firebase
 We initially thought of using a relational database, but since we only had less than a month to develop it, we decided to go with a non-relational database, so we chose Firebase. In that context, we created the documents to simulate a relational interaction, like it was needed for our project.
